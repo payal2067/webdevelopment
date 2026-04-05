@@ -1,0 +1,48 @@
+ .box1{
+   width: 100px;
+   background-color: aquamarine;
+   margin: 20px;
+   padding: 40px;
+   border: 2px solid rgb(175, 175, 233);
+ }
+
+ .box2{
+   width: 100px;
+   background-color: aquamarine;
+   margin: 70px;
+   padding: 50px;
+   border: 3px solid darkolivegreen;
+ }
+
+ img{
+   width: 200px;
+   height: auto;
+   border: 3px solid grey;
+  
+  
+ }
+ #second-image{
+   border-radius: 10%;
+   width: 200px;
+   height: auto;
+  
+ }
+
+ 
+ #outerD{
+    width: 600px;
+    height: 200px;
+    border: 1px solid lawngreen;
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+  row-gap:10px;
+   column-gap: 100px;
+ }
+
+ .innerdiv{
+    height: 100px;
+    width: 100px  ;
+    border: 1px solid rgb(188, 179, 179);
+ background-color: aqua;
+ }

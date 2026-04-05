@@ -1,0 +1,516 @@
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+  }
+
+  .outerDiv {
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 60px;
+      position: fixed;
+      gap: 10px;
+      top: 0;
+      z-index: 99;
+      width: 92%;
+      margin-bottom: 100px;
+      box-shadow: 0 1px 1px 0 rgb(192, 191, 191);
+
+
+      .logo1 {
+          display: flex;
+          gap: 100px;
+          align-items: center;
+          justify-content: center;
+
+
+          .Ricrhlogo {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+
+          .Navlink {
+              display: flex;
+              align-items: center;
+              font-size: 19px;
+              color: black;
+              gap: 60px;
+              align-items: center;
+              justify-content: center;
+
+          }
+      }
+
+      .logo2 {
+          display: flex;
+          gap: 15px;
+          align-items: center;
+          justify-content: center;
+
+          button {
+              padding: 14px 25px;
+              border: none;
+              background-color: #125785;
+              border-radius: 10px;
+              color: white;
+              box-shadow: 5px 5px 0px 0 #75b2d5;
+              font-size: 17px;
+          }
+
+      }
+  }
+
+
+  .outerDiv1 {
+      background-color: #E6F4FA;
+      margin: 100px 15%;
+      display: grid;
+      padding: 20px 60px;
+      gap: 20px;
+      border-radius: 15px;
+
+      h1 {
+          text-align: center;
+      }
+
+      p {
+          font-size: 16px;
+          text-align: center;
+          padding-bottom: 30px;
+      }
+
+      .input-field1 {
+          display: flex;
+          gap: 30px;
+
+          .name {
+              display: grid;
+              width: 50%;
+              gap: 7px;
+
+              input {
+                  height: 55px;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                  padding-left: 20px;
+                  font-size: 16px;
+              }
+
+
+          }
+
+          .cNumber {
+              display: grid;
+              width: 50%;
+              gap: 7px;
+
+              input {
+                  height: 55px;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                  padding-left: 20px;
+                  font-size: 16px;
+              }
+
+          }
+
+          .Year {
+              display: grid;
+              width: 50%;
+              gap: 7px;
+
+              select {
+                  height: 55px;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                  padding-left: 20px;
+                  font-size: 16px;
+              }
+
+          }
+
+          .Branch {
+              display: grid;
+              width: 50%;
+              gap: 7px;
+
+              input {
+                  height: 55px;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                  padding-left: 20px;
+                  font-size: 16px;
+              }
+
+          }
+      }
+
+      .input-field2 {
+          display: flex;
+          gap: 30px;
+
+          .Email {
+              display: grid;
+              gap: 7px;
+              width: 70%;
+
+              input {
+                  height: 55px;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                  padding-left: 20px;
+                  font-size: 16px;
+              }
+          }
+
+          .Qualification {
+              display: grid;
+              gap: 7px;
+              width: 30%;
+
+              input {
+                  height: 55px;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                  padding-left: 20px;
+                  font-size: 16px;
+              }
+          }
+      }
+
+      .CollegeName {
+          display: grid;
+          gap: 7px;
+          width: 100%;
+
+          input {
+              height: 55px;
+              border: 1px solid gray;
+              border-radius: 8px;
+              padding-left: 20px;
+              font-size: 16px;
+          }
+      }
+
+
+      .para {
+          display: flex;
+          padding-bottom: 20px;
+          color: #475467;
+
+      }
+
+      .para1 {
+          width: 50%;
+          display: grid;
+          gap: 8px;
+
+
+      }
+
+      .para2 {
+          display: grid;
+          width: 50%;
+          gap: 10px;
+          font-size: 16px;
+
+          p2 {
+              text-align: left;
+              gap: 10px;
+
+              b {
+                  font-size: 16px;
+                  padding-top: 0px;
+              }
+          }
+
+          .p3 {
+              display: grid;
+              width: 100%;
+              gap: 7px;
+
+              select {
+                  height: 55px;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                  padding-left: 20px;
+                  font-size: 16px;
+              }
+          }
+
+          .p4 {
+              display: grid;
+              gap: 7px;
+              width: 100%;
+
+              select {
+                  height: 55px;
+                  border: 1px solid gray;
+                  border-radius: 8px;
+                  padding-left: 20px;
+                  font-size: 16px;
+                  width: 100%;
+                  background-color: #E9ECEF;
+
+              }
+          }
+      }
+
+      .button1 {
+          align-items: center;
+          padding: 17px 20px;
+          width: 15%;
+          margin: 0 43%;
+          border-radius: 30px;
+          background-color: #081A28;
+          color: white;
+          font-size: 18px;
+      }
+  }
+
+  footer {
+      background-color: #125785;
+      display: grid;
+      padding: 40px 5%;
+      gap: 20px;
+  }
+
+  .footerhead {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding-bottom: 60px;
+
+      .ricr {
+          display: grid;
+          gap: 20px;
+
+          img {
+              height: 40px;
+              width: 150px;
+          }
+
+          .RICRpara {
+              color: #B8CDD5;
+              width: 280px;
+          }
+      }
+
+      a {
+          text-decoration: none;
+          color: #edeef0;
+      }
+
+      h3 {
+          color: rgb(255, 255, 255);
+      }
+
+      .Policies {
+          display: grid;
+          gap: 10px;
+
+          h3 {
+              padding-top: 30px;
+              border-top: 1px solid rgb(216, 216, 216);
+          }
+      }
+
+      .OuickLinks {
+          display: grid;
+          gap: 20px;
+          padding: 25px 40px;
+          color: #B8CDD5;
+          text-decoration: none;
+      }
+
+      .OtherLinks {
+          display: grid;
+          gap: 20px;
+          padding: 25px 40px;
+          color: white;
+
+          .link1 {
+              display: grid;
+              gap: 10px;
+          }
+      }
+
+      .Information {
+          display: grid;
+          gap: 20px;
+          padding: 25px 40px;
+          color: #B8CDD5;
+
+          .icons {
+              padding: 12px 0;
+              display: flex;
+              gap: 20px;
+
+              a {
+                  display: flex;
+                  gap: 20px;
+              }
+
+          }
+
+          div {
+              display: flex;
+              gap: 10px;
+              color: white;
+          }
+      }
+  }
+
+  .footerin {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      font-size: 18px;
+
+      a {
+          text-decoration: none;
+          color: rgb(225, 221, 221);
+      }
+  }
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .footerhead {
+    grid-template-columns: auto auto;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .OuickLinks,
+  .OtherLinks,
+  .Information {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .Information .icons {
+    justify-content: center;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  footer {
+    padding: 30px 10px;
+  }
+
+  .footerhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footerhead .ricr {
+    align-items: center;
+    text-align: center;
+  }
+
+  .RICRpara {
+    width: 100% !important;
+  }
+
+  .OuickLinks,
+  .OtherLinks,
+  .Information {
+    padding: 0;
+    text-align: center;
+  }
+
+  .Information div {
+    justify-content: center;
+  }
+
+  .Information .icons {
+    justify-content: center;
+  }
+
+  .footerin {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+}
+/* Tablet view */
+@media (max-width: 768px) {
+  .outerDiv1 {
+    margin: 80px 5%;
+    padding: 20px;
+  }
+
+  .input-field1,
+  .input-field2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .input-field1 .name,
+  .input-field1 .cNumber,
+  .input-field1 .Year,
+  .input-field1 .Branch,
+  .input-field2 .Email,
+  .input-field2 .Qualification {
+    width: 100%;
+  }
+
+  .para {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .para1,
+  .para2 {
+    width: 100%;
+  }
+
+  .button1 {
+    width: 30%;
+    margin: auto;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .outerDiv1 {
+    margin: 70px 10px;
+    padding: 15px;
+  }
+
+  .outerDiv1 h1 {
+    font-size: 22px;
+  }
+
+  .outerDiv1 p {
+    font-size: 14px;
+  }
+
+  .input-field1,
+  .input-field2 {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  input,
+  select {
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .para {
+    flex-direction: column;
+  }
+
+  .button1 {
+    width: 60%;
+    font-size: 16px;
+    padding: 12px;
+  }
+}

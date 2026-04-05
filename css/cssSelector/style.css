@@ -1,0 +1,42 @@
+ h1{
+    color: aqua;
+    box-shadow: 2px 2px 5px 0px gold;
+}
+
+.note{
+    color: goldenrod;
+    border: 1px dashed darksalmon;
+    text-shadow: 2px 2px 5px green;
+    font-size: 50px;
+    box-shadow: inset 2px 5px 0px gold;
+
+}
+
+#header{
+    background-color: aquamarine;
+    border: 4px dotted black;
+    border-radius: 10px;
+    font-size: 50px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+*{
+    margin: 1;
+}
+
+div{
+    background-color: #9f4444;
+    color: rgb(red, green, blue);
+    padding: 10px;
+    border: 2px solid red;
+    border-bottom: 1px solid wheat;
+    font-family: georgia,serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 30px;
+    
+
+}

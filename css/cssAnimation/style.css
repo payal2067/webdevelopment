@@ -1,0 +1,23 @@
+ #div1{
+    width: 50px;
+    border: 1px solid black;
+    height: 20px;
+    overflow: hidden;
+    text-wrap-mode: nowrap;
+     color: aquamarine;
+    transition:
+     width 5s linear,
+      color 2s linear 2s;
+   
+ 
+ }
+ #div1:hover{
+    width: 250px;
+    color: #be6464;
+    /* transition: width 2s; */
+    /* transition: width 5s linear 2s; */
+     /* transition: width 5s ease-in 2s; */
+      /* transition: width 5s ease-out 2s; */
+       /* transition: width 5s ease-in-out 2s; */
+
+ }
