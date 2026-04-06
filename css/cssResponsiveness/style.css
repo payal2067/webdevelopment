@@ -375,142 +375,121 @@
       }
   }
 
-/* Tablet view */
+/* =========================
+   Tablet (992px and below)
+========================= */
+@media (max-width: 992px) {
+
+    .outerDiv1 {
+        margin: 100px 5%;
+        padding: 20px;
+    }
+
+    /* Make fields stack properly */
+    .input-field1,
+    .input-field2 {
+        flex-wrap: wrap;
+    }
+
+    .input-field1 .name,
+    .input-field1 .cNumber,
+    .input-field1 .Year,
+    .input-field1 .Branch {
+        width: 48%;
+    }
+
+    .input-field2 .Email {
+        width: 100%;
+    }
+
+    .input-field2 .Qualification {
+        width: 100%;
+    }
+
+    /* Para section */
+    .para {
+        flex-wrap: wrap;
+    }
+
+    .para1,
+    .para2 {
+        width: 100%;
+    }
+
+    /* Button fix */
+    .button1 {
+        width: 30%;
+        margin: 20px auto;
+        display: block;
+    }
+}
+
+
+/* =========================
+   Mobile (768px and below)
+========================= */
 @media (max-width: 768px) {
-  .footerhead {
-    grid-template-columns: auto auto;
-    gap: 30px;
-    justify-content: center;
-  }
 
-  .OuickLinks,
-  .OtherLinks,
-  .Information {
-    padding: 10px;
-    text-align: center;
-  }
+    .outerDiv1 {
+        margin: 80px 15px;
+    }
 
-  .Information .icons {
-    justify-content: center;
-  }
+    /* All inputs full width */
+    .input-field1,
+    .input-field2 {
+        flex-direction: column;
+    }
+
+    .input-field1 .name,
+    .input-field1 .cNumber,
+    .input-field1 .Year,
+    .input-field1 .Branch,
+    .input-field2 .Email,
+    .input-field2 .Qualification {
+        width: 100%;
+    }
+
+    .para {
+        flex-direction: column;
+    }
+
+    .para1,
+    .para2 {
+        width: 100%;
+    }
+
+    .button1 {
+        width: 60%;
+    }
 }
 
-/* Mobile view */
+
+/* =========================
+   Small Mobile (480px)
+========================= */
 @media (max-width: 480px) {
-  footer {
-    padding: 30px 10px;
-  }
 
-  .footerhead {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
+    .outerDiv1 {
+        padding: 15px;
+    }
 
-  .footerhead .ricr {
-    align-items: center;
-    text-align: center;
-  }
+    h1 {
+        font-size: 20px;
+    }
 
-  .RICRpara {
-    width: 100% !important;
-  }
+    p {
+        font-size: 14px;
+    }
 
-  .OuickLinks,
-  .OtherLinks,
-  .Information {
-    padding: 0;
-    text-align: center;
-  }
+    input,
+    select {
+        height: 45px;
+        font-size: 14px;
+    }
 
-  .Information div {
-    justify-content: center;
-  }
-
-  .Information .icons {
-    justify-content: center;
-  }
-
-  .footerin {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    text-align: center;
-  }
-}
-/* Tablet view */
-@media (max-width: 768px) {
-  .outerDiv1 {
-    margin: 80px 5%;
-    padding: 20px;
-  }
-
-  .input-field1,
-  .input-field2 {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .input-field1 .name,
-  .input-field1 .cNumber,
-  .input-field1 .Year,
-  .input-field1 .Branch,
-  .input-field2 .Email,
-  .input-field2 .Qualification {
-    width: 100%;
-  }
-
-  .para {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .para1,
-  .para2 {
-    width: 100%;
-  }
-
-  .button1 {
-    width: 30%;
-    margin: auto;
-  }
-}
-
-/* Mobile view */
-@media (max-width: 480px) {
-  .outerDiv1 {
-    margin: 70px 10px;
-    padding: 15px;
-  }
-
-  .outerDiv1 h1 {
-    font-size: 22px;
-  }
-
-  .outerDiv1 p {
-    font-size: 14px;
-  }
-
-  .input-field1,
-  .input-field2 {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  input,
-  select {
-    height: 45px;
-    font-size: 14px;
-  }
-
-  .para {
-    flex-direction: column;
-  }
-
-  .button1 {
-    width: 60%;
-    font-size: 16px;
-    padding: 12px;
-  }
+    .button1 {
+        width: 90%;
+        font-size: 16px;
+        padding: 12px;
+    }
 }
