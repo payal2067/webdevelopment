@@ -51,19 +51,6 @@
    color: var(--color-primary-content);
  }
 
-
- main {
-   background: url("../images/table.webp") no-repeat center center fixed;
-   background-size: cover;
-   height: 90vh;
-   /* Overlay mask
- .mask {
-  background-color: rgba(122, 118, 118, 0.6);
-} */
-
-
- }
-
  
  
  .card {
@@ -86,9 +73,13 @@
    }
  }
 
+ .carousel-item img{
+height: 100vh;
+object-fit: cover;
+ }
 
  footer {
-   height: 60%;
+   height: 50%;
    background-color: var(--color-neutral);
   color: var(--color-neutral-content);
  }
