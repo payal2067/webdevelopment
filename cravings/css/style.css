@@ -29,6 +29,10 @@
    font-family: "Inter", sans-serif;
  }
 
+ header {
+   z-index: 99;
+ }
+
  .navbar {
    height: 64px;
    background-color: var(--color-primary);
@@ -51,8 +55,21 @@
    color: var(--color-primary-content);
  }
 
- 
- 
+
+ .login-image {
+   position: relative;
+
+   img {
+     height: 85vh;
+   }
+ }
+
+ .mask {
+   position: absolute;
+   left: 9%;
+   width: 450px;
+ }
+
  .card {
    background-color: var(--color-primary-content);
 
@@ -63,25 +80,55 @@
    a {
      color: var(--color-primary);
    }
-   p{
-    color: var(--color-secondary);
+
+   p {
+     color: var(--color-secondary);
    }
 
-   button {
-     color: var(--color-primary-content);
-     background-color: var(--color-primary);
+   .checkbox {
+     accent-color: var(--color-primary);
    }
+
  }
-
- .carousel-item img{
-height: 100vh;
-object-fit: cover;
+ .form-control{
+  border: 1px solid var(--color-primary);
+  
+ }
+.form-control:focus{
+  border-color: var(--color-primary);
+  box-shadow:0 0 0 0.1rem rgba(255, 38,38,0.7);
+}
+ 
+ #logiin {
+   color: var(--color-primary-content);
+   background-color: var(--color-primary);
  }
 
  footer {
    height: 50%;
    background-color: var(--color-neutral);
-  color: var(--color-neutral-content);
+   color: var(--color-neutral-content);
  }
 
- 
+
+
+ .password-eye {
+   position: relative;
+ }
+
+
+ .eye {
+   position: absolute;
+   right: 8px;
+   z-index: 999;
+ }
+
+
+ .eye:hover{
+  color: var(--color-primary);
+ }
+
+ /* input:active{
+  outline: 2px;
+  outline-color: var(--color-primary);
+ } */
