@@ -36,11 +36,9 @@
  .navbar {
    height: 64px;
    background-color: var(--color-primary);
-
  }
 
  .loginbutton:hover {
-
    border: 1px solid var(--color-primary-content);
  }
 
@@ -60,7 +58,7 @@
    position: relative;
 
    img {
-     height: 85vh;
+     height: 90vh;
    }
  }
 
@@ -90,32 +88,28 @@
    }
 
  }
- .form-control{
-  border: 1px solid var(--color-primary);
-  
+
+ .form-control {
+   border: 1px solid var(--color-primary);
  }
-.form-control:focus{
-  border-color: var(--color-primary);
-  box-shadow:0 0 0 0.1rem rgba(255, 38,38,0.7);
-}
- 
+
+ .form-control:focus {
+   border-color: var(--color-primary);
+   box-shadow: 0 0 0 0.1rem var(--color-primary);
+ }
+
  #logiin {
    color: var(--color-primary-content);
    background-color: var(--color-primary);
  }
 
- footer {
-   height: 50%;
-   background-color: var(--color-neutral);
-   color: var(--color-neutral-content);
- }
-
-
-
  .password-eye {
    position: relative;
  }
 
+ .eye:hover {
+   color: var(--color-primary);
+ }
 
  .eye {
    position: absolute;
@@ -123,12 +117,26 @@
    z-index: 999;
  }
 
-
- .eye:hover{
-  color: var(--color-primary);
+ footer {
+   background-color: var(--color-neutral);
+   color: var(--color-neutral-content);
+ h3{
+  font-size: 14px;
  }
+   p {
+     font-size: 18px;
+   }
 
- /* input:active{
-  outline: 2px;
-  outline-color: var(--color-primary);
- } */
+   .p-1 {
+     font-size: 14px;
+   }
+
+   a {
+     font-size: 14px;
+     color: var(--color-neutral-content);
+   }
+
+   a:hover {
+     color: var(--color-primary);
+   }
+ }
