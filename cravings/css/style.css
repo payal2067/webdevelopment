@@ -29,6 +29,7 @@
    font-family: "Inter", sans-serif;
  }
 
+ /* header */
  header {
    z-index: 99;
  }
@@ -53,17 +54,11 @@
    color: var(--color-primary-content);
  }
 
-
+ /* login-page */
  .login-image {
    img {
      height: 90vh;
    }
- }
-
- .mask {
-
-   /* left: 9%;
-   width: 450px; */
  }
 
  .card {
@@ -85,30 +80,34 @@
      accent-color: var(--color-primary);
    }
 
+   .form-control {
+     border: 1px solid var(--color-base-300);
+   }
+
+   .form-control:focus {
+     border-color: var(--color-primary);
+     box-shadow: 0 0 0 0.1rem var(--color-primary);
+   }
+
  }
 
- .form-control {
-   border: 1px solid var(--color-base-300);
- }
-
- .form-control:focus {
-   border-color: var(--color-primary);
-   box-shadow: 0 0 0 0.1rem var(--color-primary);
- }
 
  #logiin {
    color: var(--color-primary-content);
    background-color: var(--color-primary);
  }
-.eye {
-  color: var(--color-secondary);
+
+ .eye {
+   color: var(--color-secondary);
    right: 8px;
    z-index: 999;
  }
+
  .eye:hover {
    color: var(--color-primary);
  }
 
+ /* footer */
  footer {
    background-color: var(--color-neutral);
    color: var(--color-neutral-content);
@@ -119,5 +118,71 @@
 
    a:hover {
      color: var(--color-primary);
+   }
+ }
+
+ /* Hero-section */
+ .Hero-section {
+
+   .carousel-inner,
+   .carousel-control-prev,
+   .carousel-control-next {
+     height: 85vh;
+   }
+
+   .carousel-item img {
+     height: 100%;
+     object-fit: cover;
+   }
+ }
+
+ /* hero-overlay */
+ .hero-overlay {
+   inset: 0;
+   z-index: 2;
+
+   h1 {
+     color: var(--color-primary-content);
+   }
+
+   p {
+     color: var(--color-primary-content);
+   }
+
+   #sign-up {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+
+   #sign-up:hover {
+     opacity: 90;
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+
+   #order-now {
+     background-color: var(--color-base-100);
+     color: var(--color-base-content);
+   }
+
+   #order-now:hover {
+     background-color: var(--color-base-200);
+
+   }
+
+   .search {
+     width: 700px;
+     background-color: var(--color-base-100);
+   }
+
+   .bi {
+     color: var(--color-base-content);
+   }
+
+   .search-bar {
+     background-color: var(--color-base-100);
+     color: var(--color-primary);
+     outline: none;
+    
    }
  }
