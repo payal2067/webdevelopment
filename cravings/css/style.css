@@ -111,7 +111,7 @@
  footer {
    background-color: var(--color-neutral);
    color: var(--color-neutral-content);
-
+    
    a {
      color: var(--color-neutral-content);
    }
@@ -183,6 +183,78 @@
      background-color: var(--color-base-100);
      color: var(--color-primary);
      outline: none;
-    
+
    }
  }
+
+ /* restaurant-section  */
+ .restaurant-section {
+   background: linear-gradient(var(--color-primary), var(--color-base-100));
+
+   h2 {
+     color: var(--color-primary-content);
+   }
+
+   .restaurants {
+     color: var(--color-primary-content);
+   }
+
+   img {
+     height: 190px;
+     object-fit: cover;
+   }
+
+   .card {
+     background-color: var(--color-base-100);
+   }
+
+   .card:hover {
+     box-shadow: var(--color-secondary);
+     cursor: pointer;
+   }
+
+   .rating {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+
+   h5 {
+     color: var(--color-base-content);
+   }
+
+   p {
+     color: var(--color-neutral);
+   }
+
+   .badge {
+     background-color: var(--color-base-300);
+     color: var(--color-base-content);
+   }
+
+   .btn {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+
+   .btn:hover {
+     opacity: var(--color-base-content);
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+ }
+
+
+
+/* member-of-us  */
+.member-of-us{
+  background-color: var(--color-primary);
+  color: var(--color-base-100);
+  .btn{
+    background-color: var(--color-base-100);
+    color: var(--color-primary);
+  }
+   .btn:hover{
+    background-color: var(--color-base-200);
+  
+  }
+}
