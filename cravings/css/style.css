@@ -136,7 +136,7 @@
 
  }
 
-
+ /* login */
  #logiin {
    color: var(--color-primary-content);
    background-color: var(--color-primary);
@@ -370,6 +370,7 @@
      color: var(--color-primary);
    }
  }
+
  /* restaurant-section-order  */
  .restaurant-section-order {
    background: var(--color-base-200);
@@ -425,109 +426,137 @@
      color: var(--color-primary-content);
    }
  }
+
  /* about-section  */
-  .about-section {
-object-fit: cover;
-.text-main{
-  color: var(--color-primary);
-}
-.img{
-  height: 60vh;
 
-}
-.logo{
-  width:80px;
-}
+
+ .about-section {
+   object-fit: cover;
+
+   .text-main {
+     color: var(--color-primary);
+   }
+
+   .img {
+     height: 60vh;
+   }
+
+   .logo {
+     width: 80px;
+   }
  }
-.hero {
-  height: 60vh;
-  position: relative;
-}
 
-.overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.55);
-}
-
-.text-brand {
-  color: #c2410c;
-}
-
- .rating-bar-section{
-background-color: var(--color-neutral);
- .text-main{
-    color: var(--color-primary);
-  }
+ .hero {
+   height: 60vh;
+   position: relative;
+   background: url("../images/Aboutbg.jpeg") center/cover no-repeat;
  }
-.story-section{
+
+ .overlay {
+   position: absolute;
+   inset: 0;
+   background: rgba(0, 0, 0, 0.55);
+ }
+
+ .text-brand {
+   color: var(--color-primary);
+ }
+
+ .rating-bar-section {
+   background-color: var(--color-neutral);
+
+   .text-main {
+     color: var(--color-primary);
+   }
+ }
+
+ .story-section {
    background-color: var(--color-base-100);
-  .text-main{
-    color: var(--color-primary);
-  }
-}
-.value-section{
-  background-color: var(--color-base-200);
-  .text-main{
 
-    color: var(--color-primary);
-  }
-}
-.team-section{
-  background-color: var(--color-base-100);
-  .text-main{
+   .text-main {
+     color: var(--color-primary);
+   }
+ }
 
-    color: var(--color-primary);
-  }
-.team{
-background-color: var(--color-primary);
-color: var(--color-primary-content);
-height: 80px;
-width: 80px;
-border-radius: 50%;
-  }
-#getstartbtn{
-  color: var(--color-primary);
-}
-}
-/* cta-section */
-.cta-section{
-  background-color: var(--color-primary);
-}
-/* register */
-.hero {
-  height: 90vh;
-  background: url("../images/table.webp") center/cover no-repeat;
-  h2{
-    color: var(--color-primary);
-  }
-.form-card {
-   width: 420px; 
-   border-radius: 12px; 
-}
+ .value-section {
+   background-color: var(--color-base-200);
 
-.register-btn {
-  background-color:var(--color-primary);
-  color:var(--color-primary-content);
-}
+   .text-main {
 
-.register-btn:hover {
-  background-color:var(--color-primary);
-   color:var(--color-primary-content);
-}
-.text-main {
-  color: var(--color-primary);
-}
-}
+     color: var(--color-primary);
+   }
+ }
 
+ .team-section {
+   background-color: var(--color-base-100);
 
+   .text-main {
 
+     color: var(--color-primary);
+   }
 
+   .team {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+   }
 
+   #getstartbtn {
+     color: var(--color-primary);
+   }
+ }
 
-/* <div class="team-card">
-              <div
-                class="team team-circle mx-auto d-flex justify-content-center align-items-center"
-              >
-                <span class="fw-bolder fs-5">AS</span>
-              </div> */
+ /* cta-section */
+ .cta-section {
+   background-color: var(--color-primary);
+ }
+
+ /* register */
+ .hero {
+   height: 90vh;
+   background: url("../images/table.webp") center/cover no-repeat;
+
+   h2 {
+     color: var(--color-primary);
+   }
+
+   .form-card {
+     width: 420px;
+     border-radius: 12px;
+   }
+
+   .register-btn {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+
+   .register-btn:hover {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+
+   .text-main {
+     color: var(--color-primary);
+   }
+ }
+
+ /* Register-dashboard */
+ .Register-dashboard {
+   min-height: 85vh;
+   padding: 10px 0;
+   backdrop-filter:;
+
+   .btn-custom {
+
+     font-size: 14px;
+     color: var(--color-primary-content);
+     background-color: var(--color-primary);
+   }
+ }
+
+ .Register-input {
+   border: 1px solid #e2d3c3;
+   border-radius: 8px;
+ }
