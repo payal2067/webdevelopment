@@ -338,14 +338,17 @@
    .text {
      color: var(--color-base-content);
    }
-   .circle{
-   color: var(--color-primary-content);
-   background-color: var(--color-primary);
-}
-.circle-1{
-   color: var(--color-primary-content);
-   background-color: var(--color-error);
-}
+
+   .circle {
+     color: var(--color-primary-content);
+     background-color: var(--color-primary);
+   }
+
+   .circle-1 {
+     color: var(--color-primary-content);
+     background-color: var(--color-error);
+   }
+
    .card-2 {}
 
    .card-1:hover {}
@@ -553,8 +556,8 @@
  .Register-dashboard {
    min-height: 85vh;
    padding: 10px 0;
-   backdrop-filter:;
-
+   background: transparent;
+   backdrop-filter: blur(10px);
    .btn-custom {
 
      font-size: 14px;
@@ -567,3 +570,10 @@
    border: 1px solid #e2d3c3;
    border-radius: 8px;
  }
+ /* feedback-section */
+.feedback-section{
+h2{
+  color: var(--color-primary);
+}
+}
+ 
