@@ -82,21 +82,22 @@
  .navbar {
    height: 64px;
    background-color: var(--color-primary);
- }
 
- .loginbutton:hover {
-   border: 1px solid var(--color-primary-content);
- }
 
- .register {
-   background-color: var(--color-primary-content);
-   color: var(--color-primary);
- }
+   .loginbutton:hover {
+     border: 1px solid var(--color-primary-content);
+   }
 
- .register:hover {
-   background-color: transparent;
-   border: 1px solid var(--color-primary-content);
-   color: var(--color-primary-content);
+   .register {
+     background-color: var(--color-primary-content);
+     color: var(--color-primary);
+   }
+
+   .register:hover {
+     background-color: transparent;
+     border: 1px solid var(--color-primary-content);
+     color: var(--color-primary-content);
+   }
  }
 
  /* login-page */
@@ -134,6 +135,15 @@
      box-shadow: 0 0 0 0.1rem var(--color-primary);
    }
 
+   .form-select {
+     border: 1px solid var(--color-base-300);
+   }
+
+   .form-select:focus {
+     border-color: var(--color-primary);
+     box-shadow: 0 0 0 0.1rem var(--color-primary);
+   }
+
  }
 
  /* login */
@@ -151,6 +161,7 @@
  .eye:hover {
    color: var(--color-primary);
  }
+
 
  /* footer */
  footer {
@@ -338,6 +349,7 @@
    .text {
      color: var(--color-base-content);
    }
+
    h5 {
      color: var(--color-base-content);
    }
@@ -346,15 +358,16 @@
      color: var(--color-base-content);
    }
  }
- .circle {
-     color: var(--color-primary-content);
-     background-color: var(--color-primary);
-   }
 
-   .circle-1 {
-     color: var(--color-primary-content);
-     background-color:#D9468F;
-   }
+ .circle {
+   color: var(--color-primary-content);
+   background-color: var(--color-primary);
+ }
+
+ .circle-1 {
+   color: var(--color-primary-content);
+   background-color: #D9468F;
+ }
 
  /* order-now */
  .search {
@@ -547,27 +560,30 @@
  /* Register-dashboard */
  .Register-dashboard {
    min-height: 85vh;
-   padding: 10px 0;
-   background: transparent;
-   backdrop-filter: blur(10px);
-   .btn-custom {
-
-     font-size: 14px;
-     color: var(--color-primary-content);
-     background-color: var(--color-primary);
-   }
  }
 
- .Register-input {
-   border: 1px solid #e2d3c3;
-   border-radius: 8px;
+ .overlay {
+   backdrop-filter: blur(12px);
+
  }
+
+ .btn {
+   color: var(--color-primary-content);
+   background-color: var(--color-primary);
+ }
+
+ .btn:hover {
+   color: var(--color-primary-content);
+   background-color: var(--color-primary);
+ }
+
  /* feedback-section */
-.feedback-section{
-h2{
-  color: var(--color-primary);
-}
-.btn {
+ .feedback-section {
+   h2 {
+     color: var(--color-primary);
+   }
+
+   .btn {
      background-color: var(--color-primary);
      color: var(--color-primary-content);
    }
@@ -576,13 +592,15 @@ h2{
      background-color: var(--color-primary);
      color: var(--color-primary-content);
    }
-}
+ }
+
  /* contact-section */
- .contact-section{
-  h3{
-    color: var(--color-primary);
-  }
-  .btn {
+ .contact-section {
+   h3 {
+     color: var(--color-primary);
+   }
+
+   .btn {
      background-color: var(--color-primary);
      color: var(--color-primary-content);
    }
@@ -590,5 +608,19 @@ h2{
    .btn:hover {
      background-color: var(--color-primary);
      color: var(--color-primary-content);
+   }
+ }
+
+ /* help-center */
+ .help-center-section {
+   height: 85vh;
+
+   h2 {
+     color: var(--color-primary);
+   }
+
+   .container {
+     height: 75vh;
+     border: none;
    }
  }
