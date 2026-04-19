@@ -624,3 +624,25 @@
      border: none;
    }
  }
+ /* privacy-section */
+ .privacy-section{
+  height: 40vh;
+
+ }
+.section-1{
+  .text-main{
+    color: var(--color-primary);
+  }
+}
+ .section-2{
+  background-color: var(--color-base-100);
+  i{
+    color: var(--color-primary);
+  }
+ }
+ .section-3{
+background-color: var(--color-primary);
+p{
+  color:var(--color-base-300);
+}
+ }
