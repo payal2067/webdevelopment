@@ -338,7 +338,14 @@
    .text {
      color: var(--color-base-content);
    }
-
+   .circle{
+   color: var(--color-primary-content);
+   background-color: var(--color-primary);
+}
+.circle-1{
+   color: var(--color-primary-content);
+   background-color: var(--color-error);
+}
    .card-2 {}
 
    .card-1:hover {}
@@ -351,14 +358,7 @@
      color: var(--color-base-content);
    }
  }
-.circle{
-   color: var(--color-primary-content);
-   background-color: var(--color-primary);
-}
-.circle-1{
-   color: var(--color-primary-content);
-   background-color: var(--color-error);
-}
+
  /* order-now */
  .search {
    z-index: 40;
