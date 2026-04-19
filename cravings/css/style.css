@@ -351,7 +351,14 @@
      color: var(--color-base-content);
    }
  }
-
+.circle{
+   color: var(--color-primary-content);
+   background-color: var(--color-primary);
+}
+.circle-1{
+   color: var(--color-primary-content);
+   background-color: var(--color-error);
+}
  /* order-now */
  .search {
    z-index: 40;
