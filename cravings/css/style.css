@@ -338,21 +338,6 @@
    .text {
      color: var(--color-base-content);
    }
-
-   .circle {
-     color: var(--color-primary-content);
-     background-color: var(--color-primary);
-   }
-
-   .circle-1 {
-     color: var(--color-primary-content);
-     background-color: var(--color-error);
-   }
-
-   .card-2 {}
-
-   .card-1:hover {}
-
    h5 {
      color: var(--color-base-content);
    }
@@ -361,6 +346,15 @@
      color: var(--color-base-content);
    }
  }
+ .circle {
+     color: var(--color-primary-content);
+     background-color: var(--color-primary);
+   }
+
+   .circle-1 {
+     color: var(--color-primary-content);
+     background-color:#D9468F;
+   }
 
  /* order-now */
  .search {
@@ -438,8 +432,6 @@
  }
 
  /* about-section  */
-
-
  .about-section {
    object-fit: cover;
 
@@ -537,7 +529,7 @@
      border-radius: 12px;
    }
 
-   .register-btn {
+   .btn {
      background-color: var(--color-primary);
      color: var(--color-primary-content);
    }
@@ -575,5 +567,28 @@
 h2{
   color: var(--color-primary);
 }
+.btn {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+
+   .btn:hover {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
 }
- 
+ /* contact-section */
+ .contact-section{
+  h3{
+    color: var(--color-primary);
+  }
+  .btn {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+
+   .btn:hover {
+     background-color: var(--color-primary);
+     color: var(--color-primary-content);
+   }
+ }
