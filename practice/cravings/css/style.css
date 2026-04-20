@@ -448,7 +448,7 @@
  .about-section {
    object-fit: cover;
 
-   .text {
+   .text-main {
      color: var(--color-primary);
    }
 
@@ -488,7 +488,7 @@
  .story-section {
    background-color: var(--color-base-100);
 
-   .text {
+   .text-main {
      color: var(--color-primary);
    }
  }
@@ -496,7 +496,7 @@
  .value-section {
    background-color: var(--color-base-200);
 
-   .text {
+   .text-main {
 
      color: var(--color-primary);
    }
@@ -505,7 +505,7 @@
  .team-section {
    background-color: var(--color-base-100);
 
-   .text {
+   .text-main {
 
      color: var(--color-primary);
    }
@@ -517,13 +517,14 @@
      width: 80px;
      border-radius: 50%;
    }
+
+   #getstartbtn {
+     color: var(--color-primary);
+   }
  }
 
- #getstart {
-   color: var(--color-primary);
- }
-
- .satisfy-cravings-section {
+ /* cta-section */
+ .cta-section {
    background-color: var(--color-primary);
  }
 
@@ -622,68 +623,48 @@
      height: 80vh;
      border: none;
    }
-
-   .btn {
-     color: var(--color-primary-content);
-     background-color: var(--color-primary);
-   }
-
-   .btn:hover {
-     color: var(--color-primary-content);
-     background-color: var(--color-primary);
-   }
  }
-
  /* Privacy-terms*/
- .section-1 {
-   .text-main {
-     color: var(--color-primary);
-   }
+.section-1{
+  .text-main{
+    color: var(--color-primary);
+  }
+}
+ .section-2{
+  background-color: var(--color-base-100);
+  i{
+    color: var(--color-primary);
+  }
  }
-
- .section-2 {
-   background-color: var(--color-base-100);
-
-   i {
-     color: var(--color-primary);
-   }
+ .section-3{
+background-color: var(--color-primary);
+p{
+  color:var(--color-base-300);
+}
  }
-
- .section-3 {
-   background-color: var(--color-primary);
-
-   p {
-     color: var(--color-base-300);
-   }
- }
-
  /* siteMap  */
- .site-section-1 {
-   .text-main {
-     color: var(--color-primary);
-   }
+ .site-section-1{
+ .text-main{
+    color: var(--color-primary);
+  }
+}
+ .site-section-2{
+ background-color: var(--color-base-200);
+  i{
+    color: var(--color-primary);
+  }
+  a{
+    color: var(--color-neutral);
+  }
+  .text-main{
+    color: var(--color-primary);
+  }
  }
-
- .site-section-2 {
-   background-color: var(--color-base-200);
-
-   i {
-     color: var(--color-primary);
-   }
-
-   a {
-     color: var(--color-neutral);
-   }
-
-   .text-main {
-     color: var(--color-primary);
-   }
+ 
+ .site-section-3{
+  background-color: var(--color-primary);
+p{
+  color:var(--color-base-300);
+}
  }
-
- .site-section-3 {
-   background-color: var(--color-primary);
-
-   p {
-     color: var(--color-base-300);
-   }
- }
+ 

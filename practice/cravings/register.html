@@ -34,81 +34,69 @@
     </header>
 
     <main>
-      <div class="login-image position-relative">
-        <img src="./images/table.webp" alt="" width="100%" />
-      </div>
-      <div
-        class="mask  position-absolute d-flex align-items-center justify-content-center h-100 px-4 mx-5 py-3 my-3 top-0"
-      >
-        <div
-          class="card shadow-lg pt-4 pb-4 form-card align-items-center px-5 mx-5 py-5 my-5 w-100"
-        >
-          <h1 class="text-center fs-3 fw-bold">Welcome Back</h1>
-          <p class="text-center fs-6">Login to your Cravings account</p>
+      <section class="hero d-flex align-items-center pe-2">
+        <div class="container">
+          <div class="row">
+           
+            <div class="col-lg-6 col-md-8 col-12  d-none d-md-block"></div>
 
-          <form>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input
-                class="form-control px-4 small"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter your email"
-              />
-            </div>
+            
+            <div
+              class="col-md-6 d-flex justify-content-center justify-content-md-end-center"
+            >
+              <div class="card form-card shadow-lg p-5 ">
+                <h2 class="fw-bold fs-4 text-center mb-1">Create Account</h2>
+                <p class="text-center text-muted small mb-3">
+                  Join us as a Customer, Restaurant, or Rider
+                </p>
 
-            <div class="mb-3">
-              <label for="password" class="form-label">Password</label>
-              <div
-                class="input-group password align-items-center position-relative password-eye"
-              >
+                <div class="mb-3">
+                  <label class="fw-semibold small">Register as:</label>
+                  <div class="d-flex gap-3 mt-1">
+                    <div><input type="radio" name="role" /> Customer</div>
+                    <div><input type="radio" name="role" /> Restaurant</div>
+                    <div><input type="radio" name="role" /> Rider</div>
+                  </div>
+                </div>
+
                 <input
-                  class="form-control rounded-1 px-4 small"
-                  type="password"
-                  name="passout "
-                  id="password"
+                  class="form-control mb-3"
+                  placeholder="Enter your full name"
+                />
+                <input
+                  class="form-control mb-3"
+                  placeholder="Enter your email"
+                />
+                <input
+                  class="form-control mb-3"
+                  placeholder="Enter your phone number"
+                />
+                <input
+                  class="form-control mb-3"
                   placeholder="Enter your password"
                 />
-                <i class="eye position-absolute bi bi-eye-fill"></i>
+                <input
+                  class="form-control mb-3"
+                  placeholder="Confirm your password"
+                />
+
+                
+                <div class="mb-3 small">
+                  <input type="checkbox" /> I agree to the
+                  <span class="text-main">terms and conditions</span>
+                </div>
+
+                
+                <button class="btn w-100 register-btn mb-2">Register</button>
+
+                <p class="text-center small">
+                  Already registered? <span class="text-main">Login here</span>
+                </p>
               </div>
             </div>
-
-            <div
-              class="d-flex justify-content-between align-items-center mb-3 gap-5"
-            >
-              <label>
-                <input class="checkbox small px-4" type="checkbox" />
-                Remember me
-              </label>
-
-              <a class="text-decoration-none small px-4" href="#">
-                Forgot Password</a
-              >
-            </div>
-
-            <button id="logiin" class="btn w-100 border-0 px-4 py-2">
-              Login
-            </button>
-
-            <div class="text-center mt-1 gap-3 px-4">
-              <div class="d-flex align-items-center mb-2">
-                <hr class="flex-grow-1" />
-
-                <span class="mx-2 small text-muted">
-                  Don't have an account?
-                </span>
-
-                <hr class="flex-grow-1" />
-              </div>
-
-              <a class="text-decoration-none small" href="./register.html"
-                >Create an account</a
-              >
-            </div>
-          </form>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer>
