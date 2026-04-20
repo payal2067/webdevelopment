@@ -620,15 +620,11 @@
    }
 
    .container {
-     height: 75vh;
+     height: 80vh;
      border: none;
    }
  }
- /* privacy-section */
- .privacy-section{
-  height: 40vh;
-
- }
+ /* Privacy-terms*/
 .section-1{
   .text-main{
     color: var(--color-primary);
@@ -646,3 +642,29 @@ p{
   color:var(--color-base-300);
 }
  }
+ /* siteMap  */
+ .site-section-1{
+ .text-main{
+    color: var(--color-primary);
+  }
+}
+ .site-section-2{
+ background-color: var(--color-base-200);
+  i{
+    color: var(--color-primary);
+  }
+  a{
+    color: var(--color-neutral);
+  }
+  .text-main{
+    color: var(--color-primary);
+  }
+ }
+ 
+ .site-section-3{
+  background-color: var(--color-primary);
+p{
+  color:var(--color-base-300);
+}
+ }
+ 
