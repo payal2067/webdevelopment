@@ -182,7 +182,7 @@
 
    .carousel-inner,
    .carousel-control-prev,
-   .carousel-control-next {
+   .control-next {
      height: 85vh;
    }
 
@@ -636,7 +636,7 @@
 
  /* Privacy-terms*/
  .section-1 {
-   .text-main {
+   .main {
      color: var(--color-primary);
    }
  }
@@ -659,7 +659,7 @@
 
  /* siteMap  */
  .site-section-1 {
-   .text-main {
+   .main {
      color: var(--color-primary);
    }
  }
@@ -675,7 +675,7 @@
      color: var(--color-neutral);
    }
 
-   .text-main {
+   .main {
      color: var(--color-primary);
    }
  }
