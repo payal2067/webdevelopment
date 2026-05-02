@@ -1,27 +1,27 @@
 //  1.Write a program to print numbers from 1 to 5 using a while loop.
 
-let i = 1;
+let a = 1;
 
-while (i <= 5) {
-    console.log(i);
-    i++;
+while (a <= 5) {
+  console.log(a);
+  a++;
 }
 
 // 2.Write a program to print numbers from 5 to 1 using a while loop.
-let a = 5;
+let b = 5;
 
-while (a >= 1) {
-    console.log(a);
-    i--;
+while (b >= 1) {
+  console.log(b);
+  b--;
 }
 
 // 3.Write a program to print numbers starting from 2 and keep adding 2 while the number becomes less than 11.
-// let i = 2;
+let c = 2;
 
-// while (i < 11) {
-//     console.log(i);
-//     i = i + 2;
-// }
+while (c < 11) {
+  console.log(c);
+  ic = c + 2;
+}
 
 // 4.Write a program to calculate the sum of numbers from 10 to 5 using a while loop.
 // let i = 10;
