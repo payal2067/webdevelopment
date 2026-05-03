@@ -42,11 +42,18 @@ console.log("userNAme:" + userName , ", _age:" + age);
 // number → 10
 // string → "Hello"
 // boolean → true
+let number = 10;
+let string = "Hello";
+let boolean = true;
+console.log("number:" + number , ", string:" + string , ", boolean:" + boolean);
 
 
 // Exercise 7
 // Check type of values.
 // Example: type of "Hello" → string
+let value = "Hello";
+console.log(typeof value);
+
 
 // Exercise 8
 // Create:
@@ -55,6 +62,7 @@ console.log("userNAme:" + userName , ", _age:" + age);
 // Example:
 // undefined → declared but no value
 // null → intentionally empty
+
 
 // Exercise 9
 // Create variable with number value.
