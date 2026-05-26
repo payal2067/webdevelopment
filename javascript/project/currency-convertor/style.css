@@ -1,1 +1,24 @@
- 
+ * {
+   margin: 0;
+   padding: 0;
+   font-family: "Inter", sans-serif;
+ }
+#Amount{
+    width: 300px;
+   margin: 0 560px;
+}
+.btn{
+    width: 300px;
+}
+.small-card{
+    width: 95%;
+    margin: 0 130px;
+  
+}
+
+.flag-img{
+   width: 200px;
+  height: 150px;
+}
+
+  
