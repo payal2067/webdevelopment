@@ -31,13 +31,13 @@ async function ConvertCurrency() {
 document.getElementById("country").addEventListener("change", function () {
   const code = this.value.split(",")[1];
 
-  document.getElementById("flag1").src =
+  document.getElementById("flag-1").src =
     `https://flagsapi.com/${code}/flat/64.png`;
 });
 
 document.getElementById("othercountry").addEventListener("change", function () {
   const code = this.value.split(",")[1];
 
-  document.getElementById("flag2").src =
+  document.getElementById("flag-2").src =
     `https://flagsapi.com/${code}/flat/64.png`;
 });
