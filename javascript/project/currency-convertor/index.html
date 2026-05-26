@@ -29,15 +29,20 @@
 
     <main>
       <div>
-        <div class="row  d-flex">
+        <div class="row d-flex">
           <div class="col-md-5">
             <div class="small-card text-center">
-              <img src="https://flagsapi.com/US/flat/64.png" alt="" class="flag-img" />
+              <img
+                src="https://flagsapi.com/US/flat/64.png"
+                alt=""
+                class="flag-img"
+                id="flag1"
+              />
 
               <select id="country" class="form-select form-select-lg">
                 <option value="usd,US">United States - USD</option>
                 <option value="inr,IN">India - INR</option>
-                <option value="eur,EU">Europe - EUR</option>
+                <option value="gbp,GB">United Kingdom - GBP</option>
                 <option value="jpy,JP">Japan - JPY</option>
               </select>
             </div>
@@ -45,12 +50,17 @@
 
           <div class="col-md-5">
             <div class="small-card text-center">
-              <img src="https://flagsapi.com/IN/flat/64.png" alt="" class="flag-img" />
+              <img
+                src="https://flagsapi.com/IN/flat/64.png"
+                alt=""
+                class="flag-img"
+                id="flag2"
+              />
 
-              <select id="other-country" class="form-select form-select-lg">
+              <select id="othercountry" class="form-select form-select-lg">
                 <option value="usd,US">United States - USD</option>
                 <option value="inr,IN">India - INR</option>
-                <option value="eur,EU">Europe - EUR</option>
+                <option value="gbp,GB">United Kingdom - GBP</option>
                 <option value="jpy,JP">Japan - JPY</option>
               </select>
             </div>
@@ -74,10 +84,9 @@
 
         <div class="result mt-4 text-center">
           <h4 class="mb-2">
-            Converted Amount : <span id="Currency">0.0</span>USD
+            Converted Amount
+            <h1 class="result-text" id="result">₹ 0.00</h1>
           </h4>
-
-          <!-- <h1 class="result-text" id="result">₹ 0.00</h1> -->
         </div>
       </div>
     </main>
