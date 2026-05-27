@@ -27,3 +27,7 @@
  .swap-btn {
      margin: 0 293%;
  }
+ .img{
+    z-index: 999;
+    object-fit: cover;
+ }
