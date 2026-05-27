@@ -1,12 +1,14 @@
  body {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
+  
 }
 
-.weather-card {
+.container{
   width: 400px;
   border-radius: 20px;
+margin: 0 150px;
 }
 
 .temp {
