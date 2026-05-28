@@ -1,9 +1,9 @@
 async function ConvertCurrency() {
   const Amount = document.getElementById("Amount").value;
 
-  const from = document.getElementById("country").value.split(",")[0];
+  const from = document.getElementById("country1").value.split(",")[0];
 
-  const to = document.getElementById("othercountry").value.split(",")[0];
+  const to = document.getElementById("country2").value.split(",")[0];
 
   if (!Amount || Amount <= 0) {
     alert("Enter valid Amount");
@@ -28,14 +28,14 @@ async function ConvertCurrency() {
     `1 ${from.toUpperCase()} = ${rate.toFixed(2)} ${to.toUpperCase()}`;
 }
 
-document.getElementById("country").addEventListener("change", function () {
+document.getElementById("country1").addEventListener("change", function () {
   const code = this.value.split(",")[1];
 
   document.getElementById("flag-1").src =
     `https://flagsapi.com/${code}/flat/64.png`;
 });
 
-document.getElementById("othercountry").addEventListener("change", function () {
+document.getElementById("country2").addEventListener("change", function () {
   const code = this.value.split(",")[1];
 
   document.getElementById("flag-2").src =
