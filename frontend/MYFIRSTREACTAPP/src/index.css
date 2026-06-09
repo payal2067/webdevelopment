@@ -31,7 +31,8 @@
 
 .header {
   background-color: var(--color-primary);
- 
+  position: sticky;
+  position: fixed;
 }
 
 a {
@@ -44,4 +45,121 @@ a:hover {
 
 .container {
   height: 500px;
+}
+
+#register-btn {
+  color: var(--color-primary);
+}
+
+#login-btn {
+  color: var(--color-base-100);
+  outline: none;
+}
+
+#login-btn:hover {
+  background-color: transparent;
+}
+
+.heading {
+  color: var(--color-primary);
+}
+
+.card {
+  width: 30%;
+}
+
+#login {
+  color: var(--color-base-100);
+  background-color: var(--color-primary);
+}
+
+#register {
+  color: var(--color-base-100);
+  background-color: var(--color-primary);
+}
+
+.text-main {
+  color: var(--color-primary);
+}
+
+#search {
+  color: var(--color-primary);
+}
+
+.account {
+  color: var(--color-primary);
+}
+
+.checkbox {
+  accent-color: var(--color-primary);
+}
+
+.table-img {
+  width: auto;
+  height: 93vh;
+}
+
+.header-img {
+  width: 80px;
+}
+
+.Hero-section {
+
+  .carousel-inner,
+  .carousel-control-prev,
+  .control-next {
+    height: 90vh;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* hero-overlay */
+.hero-overlay {
+  inset: 0;
+  z-index: 2;
+
+  h1 {
+    color: var(--color-primary-content);
+  }
+
+  p {
+    color: var(--color-primary-content);
+  }
+
+  #sign-up {
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+  }
+
+  #sign-up:hover {
+    opacity: 90;
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+  }
+
+  #order-now {
+    background-color: var(--color-base-100);
+    color: var(--color-base-content);
+  }
+
+  #order-now:hover {
+    background-color: var(--color-base-200);
+
+  }
+
+  .search {
+    width: 700px;
+    background-color: var(--color-base-100);
+  }
+
+  .search-bar {
+    background-color: var(--color-base-100);
+    color: var(--color-primary);
+    outline: none;
+
+  }
 }
