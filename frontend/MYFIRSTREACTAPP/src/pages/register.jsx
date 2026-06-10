@@ -20,7 +20,7 @@ function Register() {
     <>
 
 
-      <div className="position-absolute  d-flex justify-content-end">
+      <div className=" position-relative d-flex justify-content-end">
 
          <img
                     src={registerImage}

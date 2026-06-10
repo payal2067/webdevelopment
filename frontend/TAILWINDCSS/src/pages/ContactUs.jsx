@@ -1,7 +1,7 @@
 function ContactUS() {
   return (
     <>
-      <div className="container d-flex justify-content-center align-items-center">
+      <div className="">
         <span className="text-primary fs-2">Contact Us</span>
       </div>
     </>

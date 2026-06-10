@@ -14,7 +14,7 @@ function Login() {
   };
   return (
     <>
-      <div className="position-absolute   d-flex">
+      <div className="position-relative   d-flex">
          
           <img
             src={loginImage}
@@ -25,7 +25,7 @@ function Login() {
        
         <div className=" position-absolute  card border p-3 mt-5 bg-light shadow mx-5 px-5 rounded">
           <h1 className="text-center heading fw-bold">Welcome Back</h1>
-          <p class="text-center fs-6">Login to your Cravings account</p>
+          <p className="text-center fs-6">Login to your Cravings account</p>
           <br />
           <form onSubmit={handleSubmit}>
             <label htmlFor="email" className="fw-bold">
@@ -55,7 +55,7 @@ function Login() {
 
             <div class="d-flex justify-content-between align-items-center mb-3 gap-5">
               <label>
-                <input class="checkbox small px-4" type="checkbox"/>
+                <input className="checkbox small px-4" type="checkbox"/>
                 Remember me
               </label>
 

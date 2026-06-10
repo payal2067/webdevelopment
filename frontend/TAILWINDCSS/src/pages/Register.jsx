@@ -18,20 +18,14 @@ function Register() {
   };
   return (
     <>
+      <div className="register-page relative flex justify-end">
+        <img src={registerImage} alt="register" className="table-img" />
 
-
-      <div className="position-absolute  d-flex justify-content-end">
-
-         <img
-                    src={registerImage}
-                    alt="register"
-                    className="table-img"
-        
-                  />
-
-        <div className="position-absolute  card border p-3  mt-5 bg-light shadow rounded px-5 mx-5">
-          <h1 className="text-center heading fw-bold">Create Account</h1>
-          <p class="text-center text-muted small mb-3">
+        <div className="container absolute  w-md p-10 mt-15 mx-25 bg-white justify-center shado shadow rounded">
+          <h1 className="text-center font-bold text-(--color-primary)">
+            Create Account
+          </h1>
+          <p class="text-center font">
             Join us as a Customer, Restaurant, or Rider
           </p>
 
@@ -39,8 +33,8 @@ function Register() {
 
           <form onSubmit={handleSubmit}>
             <div class="mb-3">
-              <label class="fw-semibold small">Register as:</label>
-              <div class="d-flex gap-3 mt-1">
+              <label class="font-bold">Register as:</label>
+              <div class="flex gap-3 mt-1">
                 <div>
                   <input type="radio" name="role" /> Customer
                 </div>
@@ -56,7 +50,7 @@ function Register() {
             <input
               type="text"
               name="fullName"
-              className="form-control"
+              className="border grid w-full rounded-md p-2"
               placeholder="Enter your full name"
               value={fullName}
               onChange={(e) => setfullname(e.target.value)}
@@ -66,7 +60,7 @@ function Register() {
             <input
               type="text"
               name="email"
-              className="form-control"
+              className="border  grid w-full rounded-md p-2"
               placeholder="Enter your email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -76,7 +70,7 @@ function Register() {
             <input
               type="number"
               name="number"
-              className="form-control"
+              className="border  grid w-full rounded-md p-2"
               placeholder="Enter your phone number"
               value={number}
               onChange={(e) => setphoneNumber(e.target.value)}
@@ -86,7 +80,7 @@ function Register() {
             <input
               type="password"
               name="password"
-              className="form-control"
+              className="border  grid w-full rounded-md p-2"
               placeholder="Enter your password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -96,27 +90,33 @@ function Register() {
             <input
               type="password"
               name="password"
-              className="form-control"
+              className="border  grid w-full rounded-md p-2"
               placeholder="Confirm your password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
             <br />
 
-            <div class="mb-3 small">
+            <div class="">
               <input type="checkbox" className="checkbox" /> I agree to the
-              <span class="text-main"> terms and conditions</span>
+              <span class="text-(--color-primary)"> terms and conditions</span>
             </div>
 
             <div className="text-center">
-              <button type="submit" className="btn w-100" id="register" >
+              <button
+                type="submit"
+                className="btn  w-full border-0 text-white py-2 rounded-md bg-(--color-primary)"
+              >
                 Register
               </button>
             </div>
           </form>
-          <hr />
-          <p>
-            Already have an account? <Link to="/login" className="account">Login here</Link>
+
+          <p className=" text-center">
+            Already have an account?{" "}
+            <Link to="/login" className="text-(--color-primary)">
+              Login here
+            </Link>
           </p>
         </div>
       </div>
