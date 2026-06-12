@@ -55,6 +55,24 @@ function Home() {
           </div>
         
       </section>
+
+      
+
+       <section className="py-16 text-center bg-(--color-primary) text-white">
+        <div className="container mx-auto px-4">
+          <h1 className="text-4xl font-bold">Become a Restaurant Partner</h1>
+
+          <p className="mt-4 max-w-2xl mx-auto">
+            Grow your business with Cravings. Join thousands of restaurants
+            already delivering with us.
+          </p>
+
+          <button className="mt-6 px-6 py-3 rounded-md bg-white text-(--color-primary) font-semibold">
+            Partner With Us
+          </button>
+        </div>
+      </section>
+
     </>
   );
 }
