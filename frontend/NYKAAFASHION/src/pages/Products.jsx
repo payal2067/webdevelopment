@@ -12,7 +12,7 @@ const Products = () => {
     try {
       setIsLoading(true);
 
-      const res = await fetch("https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline");
+      const res = await fetch(" http://makeup-api.herokuapp.com/api/v1/products");
       const data = await res.json();
       setProducts(data);
     } catch (error) {
