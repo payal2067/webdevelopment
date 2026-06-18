@@ -1,4 +1,4 @@
-import footerLogo from "../assets/images/circle-Logo.png"
+import footerLogo from "../assets/images/circle-Logo.png";
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
         <div className="text-center mx-20 p-1">
           <img src={footerLogo} alt="Cravings" width="120" />
         </div>
-<hr className=" text-(--color-primary-content) mx-16 mt-10"/>
+        <hr className=" text-(--color-primary-content) mx-16 mt-10" />
         <div className="footerin flex justify-between mx-16 mt-10  text-(--color-primary-content)">
           <p>© 2026 Cravings. All rights reserved.</p>
 
