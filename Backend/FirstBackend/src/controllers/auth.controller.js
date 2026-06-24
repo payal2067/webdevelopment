@@ -1,6 +1,6 @@
 import User from "../models/user.model.js";
 
-export const RegisterUser = (req, res) => {
+export const RegisterUser = async (req, res) => {
  try {
   const {fullName, email, phone, password, gender, dob } = req.body;
 
@@ -14,7 +14,7 @@ if(existingUser){
   res.status(409).json({ message: "Email Already Registered"});
   return;
 }
- } catch (error) {
+ } catch (error) { 
   
  }
 };
