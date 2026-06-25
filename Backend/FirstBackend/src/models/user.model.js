@@ -19,12 +19,11 @@ const UserSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-
     photo: {
       url: {
         type: String,
       },
-      publicID: {
+      publicId: {
         type: String,
       },
     },
@@ -32,7 +31,6 @@ const UserSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-
     dob: {
       type: Date,
       required: true,
@@ -43,6 +41,6 @@ const UserSchema = mongoose.Schema(
   },
 );
 
-const User = mongoose.model(UserSchema, "User");
+const User = mongoose.model("User", UserSchema);
 
 export default User;
