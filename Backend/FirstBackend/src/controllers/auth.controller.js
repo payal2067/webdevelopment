@@ -7,14 +7,14 @@ export const RegisterUser = async (req, res, next) => {
     if (!fullName || !email || !password || !phone || !gender || !dob) {
       const error = new Error("All fields Required");
       error.statusCode = 400;
-      return;
+      return next(error);
     }
 
     const existingUser = await User.findOne({ email });
     if (existingUser) {
       const error = new Error("Email already Registered");
       error.statusCode = 400;
-      return;
+      return next(error);
     }
 
     const photoUrl = `https://placehold.co/600x400?text=${fullName.charAt(0).toUpperCase()}`;
@@ -42,9 +42,39 @@ export const RegisterUser = async (req, res, next) => {
   }
 };
 
-export const LoginUser = (req, res) => {
-  res.json({ message: "Login Successfull from Controller" });
+export const LoginUser = async (req, res, next) => {
+  try {
+    const { email, password } = req.body;
+    
+    if (!email || !password) {
+      const error = new Error("All fields Required");
+      error.statusCode = 400;
+      return next(error);
+    }
+
+    const existingUser = await User.findOne({ email });
+    if (!existingUser) {
+      const error = new Error("Email not Registered");
+      error.statusCode = 404;
+      return next(error);
+    }
+
+    if (password !== existingUser.password) {
+      const error = new Error("Incorrect Password");
+      error.statusCode = 401;
+      return next(error);
+    }
+
+    res.status(200).json({
+      message: "Welcome Back",
+      data: existingUser,
+    });
+  } catch (error) {
+    console.log(error.message);
+    next(error);
+  }
 };
+
 
 export const LogoutUser = (req, res) => {
   res.json({ message: "Logout Successfull from Controller" });
